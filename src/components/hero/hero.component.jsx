@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player';
-import cappuccinoVideo from '../../assets/cappuccino.mp4';
+import { useNavigate } from 'react-router-dom';
 import {
   HeroContainer,
   OverlayContainer,
@@ -10,11 +10,15 @@ import {
 
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
 
-const Hero = () => {
+const Hero = (props) => {
+  const navigate = useNavigate();
+  const goToMenuHandler = () => {
+    navigate('/menu');
+  };
   return (
     <HeroContainer>
       <ReactPlayer
-        url={cappuccinoVideo}
+        url={props.video}
         playing
         loop
         muted
@@ -23,9 +27,17 @@ const Hero = () => {
       />
       <OverlayContainer>
         <Box>
-          <Header>Etoile Food Bar & Cocktail</Header>
-          <Paragraph>0984-951496</Paragraph>
-          <Button buttonType={BUTTON_TYPE_CLASSES.base}>Scopri il menu</Button>
+          <Header>{props.header}</Header>
+          {props.para ? <Paragraph>{props.para}</Paragraph> : ''}
+          {props.routeButton ? (
+            <Button
+              onClick={goToMenuHandler}
+              buttonType={BUTTON_TYPE_CLASSES.base}>
+              Scopri il menu
+            </Button>
+          ) : (
+            ''
+          )}
         </Box>
       </OverlayContainer>
     </HeroContainer>

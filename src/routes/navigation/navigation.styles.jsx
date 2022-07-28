@@ -59,14 +59,14 @@ export const InnerLinks = styled(Link)`
   align-items: center;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 400;
   padding: 0 1rem;
   /* height: 100%; */
   cursor: pointer;
 
   &.active {
     color: #999065;
-    border: 2px solid #633b0d;
+    border: 1px solid #633b0d;
     border-radius: 3px;
     transition: border 0.2s ease-in-out;
   }

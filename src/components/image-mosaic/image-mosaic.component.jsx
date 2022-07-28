@@ -1,45 +1,98 @@
 import { useState, useEffect } from 'react';
+import MosaicImage from '../mosaic-image/image-element.component';
+import { ImageContainer, ImageMosaicContainer } from './image-mosaic.styles';
 
-import {
-  ImageMosaicContainer,
-  MainPicture,
-  SecondPicture,
-  ThirdPicture,
-  FourthPicture,
-  FifthPicture,
-  SixthPicture,
-  SeventhPicture,
-  SecondMainPicture,
-} from './image-mosaic.styles';
+// const imageIndexArray = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
-const imageIndexArray = ['1', '2', '3', '4', '5', '6', '7', '8'];
-const shuffleArray = () => {
-  return imageIndexArray.sort((a, b) => 0.5 - Math.random());
+const imageIndexArray = {
+  pictures: [
+    {
+      id: 1,
+    },
+    {
+      id: 2,
+    },
+    {
+      id: 3,
+    },
+    {
+      id: 4,
+    },
+    {
+      id: 5,
+    },
+    {
+      id: 6,
+    },
+    {
+      id: 7,
+    },
+    {
+      id: 8,
+    },
+  ],
+};
+
+const gridAreaArray = {
+  grid: [
+    {
+      gridArea: 'main',
+    },
+    {
+      gridArea: 'second',
+    },
+    {
+      gridArea: 'third',
+    },
+    {
+      gridArea: 'fourth',
+    },
+    {
+      gridArea: 'fifth',
+    },
+    {
+      gridArea: 'sixth',
+    },
+    {
+      gridArea: 'seventh',
+    },
+    {
+      gridArea: 'secondMain',
+    },
+  ],
 };
 
 const ImageMosaicComponent = () => {
-  const [currentArray, setCurrentArray] = useState(imageIndexArray);
+  const [currentArray, setCurrentArray] = useState([
+    ...imageIndexArray.pictures,
+  ]);
 
+  const shuffleArray = () => {
+    const newArray = imageIndexArray.pictures.sort(
+      (a, b) => 0.5 - Math.random()
+    );
+    // console.log(newArray);
+    return setCurrentArray([...newArray]);
+  };
+
+  // ACTIVATE ONCE FINISHED
   useEffect(() => {
-    const interval = setInterval(() => {
-      const newArray = shuffleArray();
-      setCurrentArray(newArray);
-    }, 5000);
-
-    // setCurrentArray(shuffleArray);
+    const interval = setInterval(shuffleArray, 5000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <ImageMosaicContainer>
-      <MainPicture imageUrl={currentArray[0]}></MainPicture>
-      <SecondPicture imageUrl={currentArray[1]}></SecondPicture>
-      <ThirdPicture imageUrl={currentArray[2]}></ThirdPicture>
-      <FourthPicture imageUrl={currentArray[3]}></FourthPicture>
-      <FifthPicture imageUrl={currentArray[4]}></FifthPicture>
-      <SixthPicture imageUrl={currentArray[5]}></SixthPicture>
-      <SeventhPicture imageUrl={currentArray[6]}></SeventhPicture>
-      <SecondMainPicture imageUrl={currentArray[7]}></SecondMainPicture>
+      {gridAreaArray.grid.map(({ gridArea }, index) => {
+        console.log(gridArea);
+        const imageUrl = currentArray[index];
+        console.log(imageUrl.id);
+        return (
+          <ImageContainer gridArea={gridArea}>
+            <MosaicImage id={imageUrl.id} />
+          </ImageContainer>
+        );
+      })}
     </ImageMosaicContainer>
   );
 };

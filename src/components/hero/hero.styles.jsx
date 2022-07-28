@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import ReactPlayer from 'react-player';
-export const HeroContainer = styled.section`
+
+export const HeroContainer = styled.div`
   position: relative;
 
-  max-width: 100%;
+  width: 100vw;
   max-height: 100%;
 
   ${ReactPlayer} {
@@ -36,4 +37,6 @@ export const Header = styled.h1`
 export const Paragraph = styled.p`
   font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem);
   font-weight: 200;
+  text-align: center;
+  max-width: 80vw;
 `;

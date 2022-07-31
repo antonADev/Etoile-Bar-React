@@ -64,7 +64,10 @@ const Navigation = () => {
           <button onClick={toggleContacts}>open</button>
         </NavMenuSmall>
       )}
-      <Contacts isContactsOpen={isContactsOpen} />
+      <Contacts
+        isContactsOpen={isContactsOpen}
+        handlerFunction={toggleContacts}
+      />
       <Outlet />
       <Footer />
     </>

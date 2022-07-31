@@ -19,8 +19,7 @@ export const MenuContainer = styled.div`
   color: #633b0d;
   width: 80vw;
   max-height: 100%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  padding: 4rem 0;
 `;
 
 export const CollapsibleMenu = styled(Collapsible)`

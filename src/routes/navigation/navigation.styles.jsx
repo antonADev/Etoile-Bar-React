@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
-
 const barsAndClose = css`
   display: none;
   color: #633b0d;

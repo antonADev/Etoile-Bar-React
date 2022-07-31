@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import logo from './assets/LogoMakr-99xgf9.png';
 import Navigation from './routes/navigation/navigation.component';
 import Loading from './components/loading/loading.component';
+import Contacts from './routes/contacts/contacts.component';
 
 const Home = lazy(() => import('./routes/home/home.component'));
 const Menu = lazy(() => import('./routes/menu/menu.component'));
@@ -27,6 +28,14 @@ function App() {
           element={
             <Suspense fallback={<Loading logo={logo} />}>
               <Menu />
+            </Suspense>
+          }
+        />
+        <Route
+          path='contacts'
+          element={
+            <Suspense fallback={<Loading logo={logo} />}>
+              <Contacts />
             </Suspense>
           }
         />

@@ -12,18 +12,13 @@ import {
   NavMenuSmall,
 } from './navigation.styles';
 import logo from '../../assets/LogoMakr-99xgf9.png';
-import Contacts from '../../components/contacts/contacts-component';
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [isContactsOpen, setContactsOpen] = useState(false);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
-  };
-
-  const toggleContacts = () => {
-    setContactsOpen(!isContactsOpen);
   };
 
   useEffect(() => {
@@ -49,8 +44,7 @@ const Navigation = () => {
           <NavMenu>
             <InnerLinks to='/'>HOME</InnerLinks>
             <InnerLinks to='/menu'>MENU</InnerLinks>
-            {/* <InnerLinks to='/contacts'>CONTACTS</InnerLinks> */}
-            <button onClick={toggleContacts}>open</button>
+            <InnerLinks to='/contacts'>CONTACTS</InnerLinks>
           </NavMenu>
         )}
 
@@ -60,14 +54,10 @@ const Navigation = () => {
         <NavMenuSmall>
           <InnerLinks to='/'>HOME</InnerLinks>
           <InnerLinks to='/menu'>MENU</InnerLinks>
-          {/* <InnerLinks to='/contacts'>CONTACTS</InnerLinks> */}
-          <button onClick={toggleContacts}>open</button>
+          <InnerLinks to='/contacts'>CONTACTS</InnerLinks>
         </NavMenuSmall>
       )}
-      <Contacts
-        isContactsOpen={isContactsOpen}
-        handlerFunction={toggleContacts}
-      />
+
       <Outlet />
       <Footer />
     </>

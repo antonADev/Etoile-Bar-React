@@ -99,9 +99,9 @@ const ImageMosaicComponent = () => {
 
   // ACTIVATE ONCE FINISHED
   useEffect(() => {
-    const interval = setInterval(shuffleArray, 5000);
+    const interval = setInterval(shuffleArray, 8000);
     return () => clearInterval(interval);
-  }, []);
+  }, [currentArray]);
 
   return (
     <ImageMosaicContainer>

@@ -18,6 +18,7 @@ const Hero = (props) => {
   return (
     <HeroContainer>
       <ReactPlayer
+        playsinline={true}
         url={props.video}
         playing
         loop

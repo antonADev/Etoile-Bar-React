@@ -17,6 +17,25 @@ const barsAndClose = css`
   }
 `;
 
+const linkStyle = css`
+  color: #633b0d;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 1rem;
+  /* height: 100%; */
+  cursor: pointer;
+`;
+
+const activeButton = css`
+  color: #999065;
+  border: 1px solid #633b0d;
+  border-radius: 3px;
+  transition: border 0.2s ease-in-out;
+`;
+
 export const Nav = styled.nav`
   background-color: #fff;
   height: ${({ isOpen }) => (isOpen ? '300px' : '80px')};
@@ -27,6 +46,7 @@ export const Nav = styled.nav`
   z-index: 10;
   transition: height 0.3s linear;
   max-width: 100%;
+
   /* transition: all 1s ease-in-out; */
 
   @media screen and (max-width: 768px) {
@@ -53,15 +73,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const InnerLinks = styled(Link)`
-  color: #633b0d;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 400;
-  padding: 0 1rem;
-  /* height: 100%; */
-  cursor: pointer;
+  ${linkStyle}
 
   &.active {
     color: #999065;
@@ -78,6 +90,17 @@ export const InnerLinks = styled(Link)`
     &.active {
       border: none;
     }
+  }
+`;
+
+export const ContactsButton = styled.button`
+  ${linkStyle}
+  ${(props) => (props.isTrue ? `${activeButton}` : '')}
+
+  @media screen and (max-width: 768px) {
+    margin-top: 15%;
+
+    border: none;
   }
 `;
 

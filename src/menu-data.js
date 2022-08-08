@@ -1145,17 +1145,17 @@ const MENU_DATA = [
       },
       {
         id: 220,
-        name: 'Mousse B&W',
+        name: 'Mousse Black & White',
         price: '3,00€',
       },
       {
         id: 221,
-        name: 'Mousse Bianco-L',
+        name: 'Mousse Biancolatte',
         price: '3,00€',
       },
       {
         id: 222,
-        name: 'Mousse Cioccolato-Ris',
+        name: 'Mousse Chocorice',
         price: '3,00€',
       },
       {

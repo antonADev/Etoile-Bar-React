@@ -1,22 +1,27 @@
+import { useState, useEffect, useContext } from 'react';
 import { Outlet } from 'react-router-dom';
 
+import { ContactsContext } from '../../contexts/contacts-context';
+
+import Contacts from '../../components/contacts/contacts.component';
 import Footer from '../../components/footer/footer.component';
-import { useState, useEffect } from 'react';
+
+import logo from '../../assets/LogoMakr-99xgf9.png';
 import {
   Nav,
   NavLink,
   InnerLinks,
+  ContactsButton,
   Close,
   Bars,
   NavMenu,
   NavMenuSmall,
 } from './navigation.styles';
-import logo from '../../assets/LogoMakr-99xgf9.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
+  const { isContactsOpen, setContactsOpen } = useContext(ContactsContext);
   const toggleNav = () => {
     setIsOpen(!isOpen);
   };
@@ -35,6 +40,7 @@ const Navigation = () => {
 
   return (
     <>
+      <Contacts />
       <Nav isOpen={isOpen}>
         <NavLink to='/'>
           <img src={logo} alt='logo' />
@@ -44,7 +50,13 @@ const Navigation = () => {
           <NavMenu>
             <InnerLinks to='/'>HOME</InnerLinks>
             <InnerLinks to='/menu'>MENU</InnerLinks>
-            <InnerLinks to='/contacts'>CONTACTS</InnerLinks>
+            <ContactsButton
+              isTrue={isContactsOpen}
+              onClick={() => {
+                setContactsOpen(!isContactsOpen);
+              }}>
+              CONTACTS
+            </ContactsButton>
           </NavMenu>
         )}
 
@@ -54,10 +66,15 @@ const Navigation = () => {
         <NavMenuSmall>
           <InnerLinks to='/'>HOME</InnerLinks>
           <InnerLinks to='/menu'>MENU</InnerLinks>
-          <InnerLinks to='/contacts'>CONTACTS</InnerLinks>
+          <ContactsButton
+            isTrue={isContactsOpen}
+            onClick={() => {
+              setContactsOpen(!isContactsOpen);
+            }}>
+            CONTACTS
+          </ContactsButton>
         </NavMenuSmall>
       )}
-
       <Outlet />
       <Footer />
     </>

@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
-import { ContactProvider } from './contexts/contact.context';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { ContactsProvider } from './contexts/contacts-context';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ContactProvider>
+      <ContactsProvider>
         <App />
-      </ContactProvider>
+      </ContactsProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

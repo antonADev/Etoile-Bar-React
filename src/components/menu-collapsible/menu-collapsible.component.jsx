@@ -15,7 +15,6 @@ const MenuCollapsible = () => {
     <MenuContainer>
       {Object.keys(MENU_DATA).map((title) => {
         const menuItem = MENU_DATA[title];
-        console.log(menuItem.title);
 
         return (
           <CollapsibleMenu

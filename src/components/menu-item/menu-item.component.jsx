@@ -6,7 +6,6 @@ import {
 } from './menu-item.styles';
 
 const MenuItem = ({ menuItem }) => {
-  // menuItem.items.map((el) => console.log(el.name));
   const { name, price } = menuItem;
 
   return (

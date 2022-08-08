@@ -34,11 +34,13 @@ export const CollapsibleMenuContainer = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+
   margin: 5px 0;
 `;
 
 export const CollapsibleTitle = styled.h2`
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  max-width: 80%;
   color: #633b0d;
 `;
 

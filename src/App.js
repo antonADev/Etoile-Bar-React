@@ -1,10 +1,9 @@
-import './App.css';
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import logo from './assets/LogoMakr-99xgf9.png';
 import Navigation from './routes/navigation/navigation.component';
 import Loading from './components/loading/loading.component';
-import Contacts from './routes/contacts/contacts.component';
+import NoMatch from './routes/no-match/no-match-component';
 
 const Home = lazy(() => import('./routes/home/home.component'));
 const Menu = lazy(() => import('./routes/menu/menu.component'));
@@ -31,14 +30,7 @@ function App() {
             </Suspense>
           }
         />
-        <Route
-          path='contacts'
-          element={
-            <Suspense fallback={<Loading logo={logo} />}>
-              <Contacts />
-            </Suspense>
-          }
-        />
+        <Route path='*' element={<NoMatch />} />
       </Route>
     </Routes>
   );

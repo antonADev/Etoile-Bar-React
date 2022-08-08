@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import MosaicImage from '../mosaic-image/image-element.component';
 import { ImageContainer, ImageMosaicContainer } from './image-mosaic.styles';
-
-// const imageIndexArray = ['1', '2', '3', '4', '5', '6', '7', '8'];
+import { v4 as uuidv4 } from 'uuid';
 
 const imageIndexArray = {
   pictures: [
@@ -95,7 +94,6 @@ const ImageMosaicComponent = () => {
     const newArray = imageIndexArray.pictures.sort(
       (a, b) => 0.5 - Math.random()
     );
-    // console.log(newArray);
     return setCurrentArray([...newArray]);
   };
 
@@ -108,11 +106,10 @@ const ImageMosaicComponent = () => {
   return (
     <ImageMosaicContainer>
       {gridAreaArray.grid.map(({ gridArea }, index) => {
-        console.log(gridArea);
         const imageUrl = currentArray[index];
-        console.log(imageUrl.id);
+
         return (
-          <ImageContainer gridArea={gridArea}>
+          <ImageContainer key={uuidv4()} gridArea={gridArea}>
             <MosaicImage id={imageUrl.id} />
           </ImageContainer>
         );

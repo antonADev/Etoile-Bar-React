@@ -20,8 +20,8 @@ const Hero = (props) => {
       <ReactPlayer
         playsinline={true}
         url={props.video}
-        playing
-        loop
+        playing={true}
+        loop={true}
         muted
         width='100%'
         height='100%'

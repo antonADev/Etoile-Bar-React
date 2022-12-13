@@ -4,18 +4,18 @@ const MENU_DATA = [
     items: [
       {
         id: 1,
-        name: '7 Colli Menta',
-        price: '1,50€',
+        name: '7 Colli',
+        price: '2,00€',
       },
-      {
-        id: 2,
-        name: '7 Colli Aromatico',
-        price: '1,50€',
-      },
+      // {
+      //   id: 2,
+      //   name: '7 Colli Aromatico',
+      //   price: '2,00€',
+      // },
       {
         id: 3,
         name: 'Anice',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 4,
@@ -35,7 +35,7 @@ const MENU_DATA = [
       {
         id: 7,
         name: 'Borghetti',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 8,
@@ -62,15 +62,15 @@ const MENU_DATA = [
         name: 'Cointreau',
         price: '2,00€',
       },
-      {
-        id: 13,
-        name: 'Crema Nocciola/Pistaccio',
-        price: '2,00€',
-      },
+      // {
+      //   id: 13,
+      //   name: 'Crema Nocciola/Pistaccio',
+      //   price: '2,00€',
+      // },
       {
         id: 14,
         name: 'Del Capo',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 15,
@@ -82,11 +82,11 @@ const MENU_DATA = [
         name: 'Fernet Branca',
         price: '2,00€',
       },
-      {
-        id: 17,
-        name: 'Grand Marnier',
-        price: '2,50€',
-      },
+      // {
+      //   id: 17,
+      //   name: 'Grand Marnier',
+      //   price: '2,50€',
+      // },
       {
         id: 18,
         name: 'Jägermeister',
@@ -95,12 +95,12 @@ const MENU_DATA = [
       {
         id: 19,
         name: 'Jefferson',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 20,
         name: 'Limoncello',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 21,
@@ -110,7 +110,7 @@ const MENU_DATA = [
       {
         id: 22,
         name: 'Lucano',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 23,
@@ -120,7 +120,7 @@ const MENU_DATA = [
       {
         id: 24,
         name: 'OFF Amaro',
-        price: '3,50€',
+        price: '4,00€',
       },
       {
         id: 25,
@@ -130,22 +130,22 @@ const MENU_DATA = [
       {
         id: 26,
         name: 'Ramazzotti',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 27,
         name: 'Sambuca',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 28,
         name: `Sheridan's`,
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 29,
         name: 'Silano',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 30,
@@ -175,7 +175,7 @@ const MENU_DATA = [
       {
         id: 34,
         name: 'Analcolico con Frutta',
-        price: '5,00€',
+        price: '4,00€',
       },
       {
         id: 35,
@@ -260,7 +260,7 @@ const MENU_DATA = [
       {
         id: 51,
         name: 'Stuzzichini',
-        price: '0.50€',
+        price: '0,50€',
       },
       {
         id: 52,
@@ -315,17 +315,17 @@ const MENU_DATA = [
       {
         id: 61,
         name: 'Cedrata',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 62,
         name: 'Chinotto',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 63,
         name: 'Coca Cola Lattina',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 64,
@@ -337,15 +337,15 @@ const MENU_DATA = [
         name: 'Coca Cola Zero Vetro',
         price: '2,00€',
       },
-      {
-        id: 66,
-        name: 'Estathé Limone/Pesca',
-        price: '2,00€',
-      },
+      // {
+      //   id: 66,
+      //   name: 'Estathé Limone/Pesca',
+      //   price: '2,00€',
+      // },
       {
         id: 67,
         name: 'Fanta Lattina',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 68,
@@ -355,12 +355,12 @@ const MENU_DATA = [
       {
         id: 69,
         name: 'Lemonsoda',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 70,
         name: 'Moka Drink',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 71,
@@ -370,18 +370,18 @@ const MENU_DATA = [
       {
         id: 72,
         name: 'Schweppes Tonic/Lemon',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 73,
         name: 'Sprite Lattina',
-        price: '1,50€',
+        price: '2,00€',
       },
-      {
-        id: 74,
-        name: 'Zenzero & Limone',
-        price: '2,50€',
-      },
+      // {
+      //   id: 74,
+      //   name: 'Zenzero & Limone',
+      //   price: '2,50€',
+      // },
     ],
   },
   {
@@ -420,7 +420,7 @@ const MENU_DATA = [
       {
         id: 81,
         name: 'Peroni Nastro Azzurro',
-        price: '1,80€',
+        price: '2,00€',
       },
       {
         id: 82,
@@ -440,12 +440,12 @@ const MENU_DATA = [
       {
         id: 84,
         name: 'Caffè',
-        price: '0,90€',
+        price: '1,00€',
       },
       {
         id: 85,
         name: 'Caffè Corretto',
-        price: '1,00€',
+        price: '1,20€',
       },
       {
         id: 86,
@@ -455,23 +455,23 @@ const MENU_DATA = [
       {
         id: 87,
         name: 'Caffè Freddo',
-        price: '1,00€',
+        price: '1,20€',
       },
       {
         id: 88,
         name: 'Caffè Macchiato',
-        price: '1,00€',
+        price: '1,20€',
       },
       {
         id: 89,
         name: 'Caffè Marocchino',
         price: '2,00€',
       },
-      {
-        id: 90,
-        name: 'Caffè Marocchino Baby',
-        price: '1,50€',
-      },
+      // {
+      //   id: 90,
+      //   name: 'Caffè Marocchino Baby',
+      //   price: '1,50€',
+      // },
       {
         id: 91,
         name: 'Caffè Pugliese',
@@ -490,7 +490,7 @@ const MENU_DATA = [
       {
         id: 94,
         name: 'Cappuccino',
-        price: '1,20€',
+        price: '1,50€',
       },
       {
         id: 95,
@@ -500,7 +500,7 @@ const MENU_DATA = [
       {
         id: 96,
         name: 'Cappuccino Decaffeinato',
-        price: '1,20€',
+        price: '1,50€',
       },
       {
         id: 97,
@@ -514,8 +514,8 @@ const MENU_DATA = [
       },
       {
         id: 99,
-        name: 'Crema Caffè Special',
-        price: '1,50€',
+        name: 'Crema Caffè Special/Mandorla',
+        price: '2,50€',
       },
       {
         id: 100,
@@ -530,7 +530,7 @@ const MENU_DATA = [
       {
         id: 102,
         name: 'Ginseng Piccolo',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 103,
@@ -540,12 +540,12 @@ const MENU_DATA = [
       {
         id: 104,
         name: 'Latte Caldo',
-        price: '1,20€',
+        price: '1,50€',
       },
       {
         id: 105,
         name: 'Latte Freddo',
-        price: '1,20€',
+        price: '1,50€',
       },
       {
         id: 106,
@@ -561,7 +561,7 @@ const MENU_DATA = [
       {
         id: 108,
         name: 'Orzo Piccolo',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 109,
@@ -573,11 +573,11 @@ const MENU_DATA = [
         name: 'Shakerato',
         price: '1,50€',
       },
-      {
-        id: 111,
-        name: 'Thè Caldo Classico',
-        price: '2,00€',
-      },
+      // {
+      //   id: 111,
+      //   name: 'Thè Caldo Classico',
+      //   price: '2,00€',
+      // },
       {
         id: 112,
         name: 'Thè/Tisane',
@@ -588,130 +588,130 @@ const MENU_DATA = [
   {
     title: 'Cioccolata Eraclea',
     items: [
-      {
-        id: 113,
-        name: 'Arancia & Cannella',
-        price: '2,50€',
-      },
+      // {
+      //   id: 113,
+      //   name: 'Arancia & Cannella',
+      //   price: '3,00€',
+      // },
       {
         id: 114,
         name: 'Bianca',
-        price: '2,50€',
+        price: '3,00€',
       },
-      {
-        id: 115,
-        name: 'Bianca S/Zucchero',
-        price: '2,50€',
-      },
+      // {
+      //   id: 115,
+      //   name: 'Bianca S/Zucchero',
+      //   price: '3,00€',
+      // },
       {
         id: 116,
         name: 'Classica',
-        price: '2,50€',
+        price: '3,00€',
       },
-      {
-        id: 117,
-        name: 'Classica S/Zucchero',
-        price: '2,50€',
-      },
+      // {
+      //   id: 117,
+      //   name: 'Classica S/Zucchero',
+      //   price: '3,00€',
+      // },
       {
         id: 118,
         name: 'Cocco',
-        price: '2,50€',
+        price: '3,00€',
       },
       {
         id: 119,
         name: 'Fondente',
-        price: '2,50€',
+        price: '3,00€',
       },
       {
         id: 120,
         name: 'Fondente S/Zucchero',
-        price: '2,50€',
+        price: '3,00€',
       },
       {
         id: 121,
         name: 'Nocciola',
-        price: '2,50€',
+        price: '3,00€',
       },
       {
         id: 122,
         name: 'Nocciola Bianca',
-        price: '2,50€',
+        price: '3,00€',
       },
-      {
-        id: 123,
-        name: 'Peperoncino',
-        price: '2,50€',
-      },
+      // {
+      //   id: 123,
+      //   name: 'Peperoncino',
+      //   price: '3,00€',
+      // },
       {
         id: 124,
         name: 'Pistacchio',
-        price: '2,50€',
-      },
-    ],
-  },
-  {
-    title: 'Cioccolata Lindt',
-    items: [
-      {
-        id: 125,
-        name: '70% Cacao',
-        price: '3,00€',
-      },
-      {
-        id: 126,
-        name: 'Arancia',
-        price: '3,00€',
-      },
-      {
-        id: 127,
-        name: 'Bianca',
-        price: '3,00€',
-      },
-      {
-        id: 128,
-        name: 'Classica',
-        price: '3,00€',
-      },
-      {
-        id: 129,
-        name: 'Fondente',
-        price: '3,00€',
-      },
-      {
-        id: 130,
-        name: 'Gianduia',
-        price: '3,00€',
-      },
-      {
-        id: 131,
-        name: 'Peperoncino',
-        price: '3,00€',
-      },
-      {
-        id: 132,
-        name: 'Zenzero',
         price: '3,00€',
       },
     ],
   },
+  // {
+  //   title: 'Cioccolata Lindt',
+  //   items: [
+  //     {
+  //       id: 125,
+  //       name: '70% Cacao',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 126,
+  //       name: 'Arancia',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 127,
+  //       name: 'Bianca',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 128,
+  //       name: 'Classica',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 129,
+  //       name: 'Fondente',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 130,
+  //       name: 'Gianduia',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 131,
+  //       name: 'Peperoncino',
+  //       price: '3,00€',
+  //     },
+  //     {
+  //       id: 132,
+  //       name: 'Zenzero',
+  //       price: '3,00€',
+  //     },
+  //   ],
+  // },
   {
     title: 'Cocktails',
     items: [
       {
         id: 133,
         name: 'Americano',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 134,
         name: 'Belvedere',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 135,
         name: 'Belvedere & Tonic',
-        price: '6,00€',
+        price: '7,00€',
       },
       {
         id: 136,
@@ -721,7 +721,7 @@ const MENU_DATA = [
       {
         id: 137,
         name: 'Caipiroska',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 138,
@@ -751,17 +751,17 @@ const MENU_DATA = [
       {
         id: 143,
         name: 'Coca & Disaronno',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 144,
         name: 'Coca & Malibù',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 145,
         name: 'Coca & Rum',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 146,
@@ -801,12 +801,12 @@ const MENU_DATA = [
       {
         id: 153,
         name: 'Iovem Mule',
-        price: '6,00€',
+        price: '7,00€',
       },
       {
         id: 154,
         name: 'Japanese Slipper',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 155,
@@ -826,7 +826,7 @@ const MENU_DATA = [
       {
         id: 158,
         name: 'Margarita',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 159,
@@ -836,12 +836,12 @@ const MENU_DATA = [
       {
         id: 160,
         name: 'Mojito',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 161,
         name: 'Moscow Mule',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 162,
@@ -856,12 +856,12 @@ const MENU_DATA = [
       {
         id: 164,
         name: 'Negroni Sbagliato',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 165,
         name: 'Negroski',
-        price: '5,00€',
+        price: '6,00€',
       },
       {
         id: 166,
@@ -881,12 +881,12 @@ const MENU_DATA = [
       {
         id: 169,
         name: 'Purple Negroni',
-        price: '6,00€',
+        price: '7,00€',
       },
       {
         id: 170,
         name: 'Red Bull & Vodka',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 171,
@@ -896,7 +896,7 @@ const MENU_DATA = [
       {
         id: 172,
         name: 'Sex On The Beach',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 173,
@@ -911,22 +911,22 @@ const MENU_DATA = [
       {
         id: 175,
         name: 'Thunder Tonic',
-        price: '6,00€',
+        price: '7,00€',
       },
       {
         id: 176,
         name: 'Turkey Mule',
-        price: '6,00€',
+        price: '7,00€',
       },
       {
         id: 177,
         name: 'Vodka',
-        price: '2,00€',
+        price: '2,50€',
       },
       {
         id: 178,
         name: 'Vodka & Lemon',
-        price: '4,00€',
+        price: '5,00€',
       },
     ],
   },
@@ -936,67 +936,72 @@ const MENU_DATA = [
       {
         id: 179,
         name: 'Bombolone',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 180,
         name: 'Conchiglia Cioccolato',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 181,
         name: 'Conchiglia Crema di Latte',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 182,
         name: 'Cornetto',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 183,
         name: 'Cornetto Integrale',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 184,
         name: 'Cornetto Piccolo',
-        price: '1,20€',
+        price: '1,00€',
+      },
+      {
+        id: 'Cornetto Serale',
+        name: 'Cornetto Serale',
+        price: '1,50€',
       },
       {
         id: 185,
         name: 'Crostata',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 186,
         name: 'Saccottino Cioccolato',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 187,
         name: 'Sfoglia Yogurt/Fragola',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 188,
         name: 'Strudel',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 189,
         name: 'Treccia Cioccolato',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 190,
         name: 'Treccia Frutti di Bosco',
-        price: '1,20€',
+        price: '1,30€',
       },
       {
         id: 191,
         name: 'Treccia Miele & Noci',
-        price: '1,20€',
+        price: '1,30€',
       },
     ],
   },
@@ -1006,12 +1011,12 @@ const MENU_DATA = [
       {
         id: 192,
         name: 'Babà',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 193,
         name: 'Barchetta Mignon',
-        price: '0,70€',
+        price: '0,80€',
       },
       {
         id: 194,
@@ -1021,102 +1026,102 @@ const MENU_DATA = [
       {
         id: 195,
         name: 'Cannolo Sfogliato Mignon',
-        price: '0,70€',
+        price: '0,80€',
       },
       {
         id: 196,
         name: 'Cannolo',
-        price: '0,70€',
+        price: '0,80€',
       },
       {
         id: 197,
         name: 'Cestino Frutta',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 198,
         name: 'Cestino Mignon',
-        price: '0,70€',
+        price: '0,80€',
       },
       {
         id: 199,
         name: 'Coppa Cheesecake',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 200,
         name: 'Coppa Cioccolato/Amarena',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 201,
         name: 'Coppa Kinder Bueno',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 202,
         name: 'Coppa Kinder Cereali',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 203,
         name: 'Coppa Kinder Delice',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 204,
         name: 'Coppa Mars',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 205,
         name: 'Coppa Nutella Bisquit',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 206,
         name: 'Coppa Oreo',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 207,
         name: 'Coppa Pan di Stelle',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 208,
         name: 'Coppa Raffaello',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 209,
         name: 'Coppa Red Velvet',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 210,
         name: 'Coppa Ferrero Rocher',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 211,
         name: 'Coppa Tiramisù',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 212,
         name: 'Crêpes',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 213,
         name: 'Crêpes con Gelato',
-        price: '4,00€',
+        price: '5,00€',
       },
       {
         id: 214,
         name: 'Crêpes con Nocciola/Pistacchio',
-        price: '3,50€',
+        price: '4,00€',
       },
       {
         id: 215,
@@ -1126,42 +1131,42 @@ const MENU_DATA = [
       {
         id: 216,
         name: 'Mille Foglie',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 217,
         name: 'Mini Bicchiere',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 218,
         name: 'Mini Pancake',
-        price: '2,00€',
+        price: '2,50€',
       },
       {
         id: 219,
         name: 'Mousse al Pistacchio',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 220,
         name: 'Mousse Black & White',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 221,
         name: 'Mousse Biancolatte',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 222,
         name: 'Mousse Chocorice',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 223,
         name: 'Pancake',
-        price: '3,50€',
+        price: '4,00€',
       },
       {
         id: 224,
@@ -1171,28 +1176,28 @@ const MENU_DATA = [
       {
         id: 225,
         name: 'Profitteroles',
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 226,
         name: 'Secco Mignon',
-        price: '0,40€',
+        price: '0,50€',
       },
       {
         id: 227,
         name: 'Sfera Bianco-Fr',
-        price: '3,00€',
+        price: '3,50€',
       },
-      {
-        id: 228,
-        name: 'Torrone Mignon',
-        price: '0,50€',
-      },
-      {
-        id: 229,
-        name: 'Torta Lindt',
-        price: '3,00€',
-      },
+      // {
+      //   id: 228,
+      //   name: 'Torrone Mignon',
+      //   price: '0,50€',
+      // },
+      // {
+      //   id: 229,
+      //   name: 'Torta Lindt',
+      //   price: '3,00€',
+      // },
       {
         id: 230,
         name: 'Tortino Cioccolato',
@@ -1201,17 +1206,17 @@ const MENU_DATA = [
       {
         id: 231,
         name: 'Turdilli',
-        price: '0,50€',
+        price: '0,80€',
       },
       {
         id: 232,
         name: 'Waffle',
-        price: '3,00€',
+        price: '4,00€',
       },
       {
         id: 233,
         name: 'Zeppola Mignon',
-        price: '1,00€',
+        price: '1,20€',
       },
     ],
   },
@@ -1286,12 +1291,12 @@ const MENU_DATA = [
       {
         id: 247,
         name: `Jack Daniel's`,
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 248,
         name: `Jack Daniel's Honey`,
-        price: '3,00€',
+        price: '3,50€',
       },
       {
         id: 249,
@@ -1301,7 +1306,7 @@ const MENU_DATA = [
       {
         id: 250,
         name: 'Of Amarone Barrique',
-        price: '3,50€',
+        price: '4,00€',
       },
       {
         id: 251,
@@ -1336,7 +1341,7 @@ const MENU_DATA = [
       {
         id: 257,
         name: 'Vecchia Romagna',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 258,
@@ -1356,7 +1361,7 @@ const MENU_DATA = [
       {
         id: 260,
         name: 'Brioche Vuota',
-        price: '3,50€',
+        price: '1,50€',
       },
       {
         id: 261,
@@ -1431,7 +1436,7 @@ const MENU_DATA = [
       {
         id: 275,
         name: 'Granita Baby Limone/Mandorla',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 276,
@@ -1456,7 +1461,7 @@ const MENU_DATA = [
       {
         id: 280,
         name: 'Pallina di Gelato',
-        price: '1,00€',
+        price: '1,20€',
       },
       {
         id: 281,
@@ -1481,22 +1486,27 @@ const MENU_DATA = [
       {
         id: 284,
         name: 'Consegna',
-        price: '2,00€',
+        price: '3,00€',
       },
       {
         id: 285,
         name: 'Farcita/Farcita 2 Gusti/Farcita 3 Gusti',
-        price: '15,00€',
+        price: '17,00€',
+      },
+      {
+        id: 'Farcita 3 Gusti',
+        name: 'Farcita 3 Gusti',
+        price: '18,00€',
       },
       {
         id: 286,
         name: 'Margherita',
-        price: '10,00€',
+        price: '12,00€',
       },
       {
         id: 287,
         name: 'Pizza Rustica',
-        price: '22,00€',
+        price: '25,00€',
       },
       {
         id: 289,
@@ -1506,12 +1516,12 @@ const MENU_DATA = [
       {
         id: 290,
         name: 'Focaccia Farcita',
-        price: '22,00€',
+        price: '30,00€',
       },
       {
         id: 291,
         name: 'Focaccia Pugliese',
-        price: '22,00€',
+        price: '20,00€',
       },
     ],
   },
@@ -1601,7 +1611,7 @@ const MENU_DATA = [
       {
         id: 308,
         name: 'Porzione di Patatine Fritte',
-        price: '2,00€',
+        price: '2,50€',
       },
       {
         id: 309,
@@ -1638,11 +1648,11 @@ const MENU_DATA = [
         name: 'Appleton Estate 15y',
         price: '4,50€',
       },
-      {
-        id: 315,
-        name: 'Baron Samedi 80 Proof',
-        price: '3,50€',
-      },
+      // {
+      //   id: 315,
+      //   name: 'Baron Samedi 80 Proof',
+      //   price: '3,50€',
+      // },
       {
         id: 316,
         name: 'Cubaney 21y',
@@ -1654,24 +1664,39 @@ const MENU_DATA = [
         price: '4,50€',
       },
       {
+        id: 'Depaz Martinique',
+        name: 'Depaz Martinique',
+        price: '8,00€',
+      },
+      {
         id: 318,
         name: 'Diplomatico',
         price: '5,00€',
       },
       {
-        id: 319,
-        name: 'Don Papa',
-        price: '5,00',
+        id: 'Diplomatico Seleccion De Familia',
+        name: 'Diplomatico Seleccion De Familia',
+        price: '7,00€',
       },
       {
-        id: 320,
-        name: 'Don Papa 10y',
-        price: '6,00€',
+        id: 319,
+        name: 'Don Papa',
+        price: '5,00€',
       },
+      // {
+      //   id: 320,
+      //   name: 'Don Papa 10y',
+      //   price: '6,00€',
+      // },
       {
         id: 321,
         name: 'El Dorado 15y',
         price: '7,00€',
+      },
+      {
+        id: 'La Hechicera',
+        name: 'La Hechicera',
+        price: '5,00€',
       },
       {
         id: 322,
@@ -1691,23 +1716,23 @@ const MENU_DATA = [
       {
         id: 324,
         name: 'ACE',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 325,
         name: 'Ananas',
-        price: '1,50€',
+        price: '2,00€',
       },
-      {
-        id: 326,
-        name: 'Arancia/Mirtillo',
-        price: '1,50€',
-      },
-      {
-        id: 327,
-        name: 'Banana',
-        price: '1,50€',
-      },
+      // {
+      //   id: 326,
+      //   name: 'Arancia/Mirtillo',
+      //   price: '2,00€',
+      // },
+      // {
+      //   id: 327,
+      //   name: 'Banana',
+      //   price: '2,00€',
+      // },
       {
         id: 328,
         name: 'Cocco/Ananas',
@@ -1731,22 +1756,22 @@ const MENU_DATA = [
       {
         id: 332,
         name: 'Kiwi/Mela',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 333,
         name: 'Melograno',
-        price: '2,00€',
+        price: '2,50€',
       },
       {
         id: 334,
         name: 'Mirtillo',
-        price: '2,00€',
+        price: '2,50€',
       },
       {
         id: 335,
         name: 'Pera',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 336,
@@ -1756,12 +1781,12 @@ const MENU_DATA = [
       {
         id: 337,
         name: 'Pesca',
-        price: '1,50€',
+        price: '2,00€',
       },
       {
         id: 338,
         name: 'Pompelmo',
-        price: '1,50€',
+        price: '2,00€',
       },
     ],
   },
